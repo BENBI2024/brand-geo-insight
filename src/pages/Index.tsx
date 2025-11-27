@@ -131,53 +131,14 @@ const Index = () => {
           <h1 className="text-5xl font-bold text-foreground">
             Geo 诊断系统
           </h1>
-          <p className="text-xl text-muted-foreground max-w-2xl mx-auto">
+          <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
             评估大语言模型对品牌的 Generative Entity Orientation 能力，
             通过多维度测试深入了解 AI 模型的品牌理解水平
           </p>
         </div>
 
-        {/* Features */}
-        <div className="grid md:grid-cols-3 gap-6 mb-12">
-          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-primary/10 rounded-lg">
-                <Target className="h-5 w-5 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground">多维度评估</h3>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              从主动提及度、语义相关度、具体性三个维度全面评估品牌理解能力
-            </p>
-          </Card>
-
-          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-primary/10 rounded-lg">
-                <Sparkles className="h-5 w-5 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground">智能分析</h3>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              AI 自动生成问题、回答、评分，提供深入的品牌理解度分析报告
-            </p>
-          </Card>
-
-          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
-            <div className="flex items-center gap-3 mb-3">
-              <div className="p-2 bg-primary/10 rounded-lg">
-                <TrendingUp className="h-5 w-5 text-primary" />
-              </div>
-              <h3 className="font-semibold text-foreground">可视化报告</h3>
-            </div>
-            <p className="text-sm text-muted-foreground">
-              直观的图表展示和详细的诊断报告，支持 Markdown 格式导出
-            </p>
-          </Card>
-        </div>
-
         {/* Input Form */}
-        <Card className="p-8 shadow-card">
+        <Card className="p-8 shadow-card mb-12">
           <div className="space-y-6">
             <div>
               <h2 className="text-2xl font-semibold text-foreground mb-2">
@@ -238,6 +199,45 @@ const Index = () => {
             </p>
           </div>
         </Card>
+
+        {/* Features */}
+        <div className="grid md:grid-cols-3 gap-6 mb-12">
+          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <Target className="h-5 w-5 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground">多维度评估</h3>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              从主动提及度、语义相关度、具体性三个维度全面评估品牌理解能力
+            </p>
+          </Card>
+
+          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <Sparkles className="h-5 w-5 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground">智能分析</h3>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              AI 自动生成问题、回答、评分，提供深入的品牌理解度分析报告
+            </p>
+          </Card>
+
+          <Card className="p-6 shadow-card hover:shadow-lg transition-shadow">
+            <div className="flex items-center gap-3 mb-3">
+              <div className="p-2 bg-primary/10 rounded-lg">
+                <TrendingUp className="h-5 w-5 text-primary" />
+              </div>
+              <h3 className="font-semibold text-foreground">可视化报告</h3>
+            </div>
+            <p className="text-sm text-muted-foreground">
+              直观的图表展示和详细的诊断报告，支持 Markdown 格式导出
+            </p>
+          </Card>
+        </div>
 
         {/* Info Section */}
         <div className="mt-12 text-center text-muted-foreground space-y-2">
