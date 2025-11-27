@@ -1,0 +1,13 @@
+project_id = "noccuzegbkudxolfgrok"
+
+[functions.generate-questions]
+verify_jwt = false
+
+[functions.generate-answers]
+verify_jwt = false
+
+[functions.score-geo]
+verify_jwt = false
+
+[functions.generate-report]
+verify_jwt = false
