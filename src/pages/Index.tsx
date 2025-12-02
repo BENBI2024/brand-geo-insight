@@ -132,7 +132,7 @@ const Index = () => {
             Geo 诊断系统
           </h1>
           <p className="text-lg text-muted-foreground max-w-2xl mx-auto">
-            评估大语言模型对品牌的 Generative Entity Orientation 能力，
+            评估大语言模型对品牌的 Generative Engine Optimization 能力，
             通过多维度测试深入了解 AI 模型的品牌理解水平
           </p>
         </div>
